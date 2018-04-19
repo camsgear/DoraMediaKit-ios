@@ -2,8 +2,17 @@
 
 ## 集成SDK
 通过cocoapods集成方式
-```pod 'DoraMediaKit'```
-添加之后执行 pod install / pod update 命令即可。
+```
+source 'https://phab.camdora.me/source/DoraMediaKit-Specs.git'
+
+target 'DoraMediaKitDemo' do
+
+  pod 'DoraMediaKit'
+
+end
+```
+添加之后执行 pod install / pod update 命令即可。<br>
+pod install 需要输入用户名密码，请按提示输入用户名密码
 
 ## DORAMediaFramework使用
 导入头文件
