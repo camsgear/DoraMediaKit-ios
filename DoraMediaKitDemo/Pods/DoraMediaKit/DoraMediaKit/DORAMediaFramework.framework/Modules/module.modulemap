@@ -1,6 +1,0 @@
-framework module DORAMediaFramework {
-  umbrella header "DORAMediaFramework.h"
-
-  export *
-  module * { export * }
-}
