@@ -1,16 +1,16 @@
 # DoraMediaKit-ios
 
-##集成SDK
+## 集成SDK
 通过cocoapods集成方式
 ```pod 'DoraMediaKit'```
 添加之后执行 pod install / pod update 命令即可。
 
-##DORAMediaFramework使用
+## DORAMediaFramework使用
 导入头文件
 ```#import <DORAMediaFramework/DORAMediaFramework.h>```
 
-##播放器使用
-``` 
+## 播放器使用
+``` Object-C
 	DORAPlayer *player = [DORAPlayer sharedPlayer];
 	DORAFFOptions *options = [DORAFFOptions optionsByDefault];
 	NSString *mediaStr = @"xxxxxxx";
@@ -35,9 +35,9 @@
     //添加到视图中
     [self.displayView addSubview:player.displayView];
     [player prepareToPlay];
-    ```
+```
 
-##接口详细说明
+## 接口详细说明
 
 /**
  视频输出的视图
