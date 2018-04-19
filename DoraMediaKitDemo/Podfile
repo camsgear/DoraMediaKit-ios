@@ -1,0 +1,8 @@
+
+source 'https://phab.camdora.me/source/DoraMediaKit-Specs.git'
+
+target 'DoraMediaKitDemo' do
+
+  pod 'DoraMediaKit'
+
+end
