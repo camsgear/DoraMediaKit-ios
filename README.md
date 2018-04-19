@@ -10,7 +10,7 @@
 ```#import <DORAMediaFramework/DORAMediaFramework.h>```
 
 ## 播放器使用
-```Object-C
+```objc
 	DORAPlayer *player = [DORAPlayer sharedPlayer];
 	DORAFFOptions *options = [DORAFFOptions optionsByDefault];
 	NSString *mediaStr = @"xxxxxxx";
@@ -38,7 +38,7 @@
 ```
 
 ## 接口详细说明
-```Object-C
+```objc
 /**
  视频输出的视图
  */
