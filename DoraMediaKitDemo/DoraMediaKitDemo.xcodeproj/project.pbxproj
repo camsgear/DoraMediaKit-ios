@@ -8,11 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		CE36C8B620883043002CE507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE36C8B520883043002CE507 /* AppDelegate.m */; };
-		CE36C8B920883043002CE507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE36C8B820883043002CE507 /* ViewController.m */; };
 		CE36C8BC20883043002CE507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE36C8BA20883043002CE507 /* Main.storyboard */; };
 		CE36C8BE20883044002CE507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE36C8BD20883044002CE507 /* Assets.xcassets */; };
 		CE36C8C120883044002CE507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE36C8BF20883044002CE507 /* LaunchScreen.storyboard */; };
 		CE36C8C420883044002CE507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE36C8C320883044002CE507 /* main.m */; };
+		CE8E8A4F208837D3003D8A4C /* Camdora_19700101000109589.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8A0F208837D3003D8A4C /* Camdora_19700101000109589.mp4 */; };
+		CE8E8A50208837D3003D8A4C /* 全景.h264 in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8A10208837D3003D8A4C /* 全景.h264 */; };
+		CE8E8A51208837D3003D8A4C /* l_split.h264 in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8A11208837D3003D8A4C /* l_split.h264 */; };
+		CE8E8A52208837D3003D8A4C /* 3dscene.h264 in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8A12208837D3003D8A4C /* 3dscene.h264 */; };
+		CE8E8A53208837D3003D8A4C /* video_example.h264 in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8A13208837D3003D8A4C /* video_example.h264 */; };
+		CE8E8A54208837D3003D8A4C /* sgk.h264 in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8A14208837D3003D8A4C /* sgk.h264 */; };
+		CE8E8A55208837D3003D8A4C /* SampleVideo_1280x720_1mb.mkv in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8A15208837D3003D8A4C /* SampleVideo_1280x720_1mb.mkv */; };
+		CE8E8A56208837D3003D8A4C /* sgk3dscene.h264 in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8A16208837D3003D8A4C /* sgk3dscene.h264 */; };
+		CE8E8A57208837D3003D8A4C /* camdora_h265_test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8A17208837D3003D8A4C /* camdora_h265_test.mp4 */; };
+		CE8E8A58208837D3003D8A4C /* CDASingleH264PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E8A1A208837D3003D8A4C /* CDASingleH264PlayerController.m */; };
+		CE8E8A59208837D3003D8A4C /* LayerPixer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E8A1C208837D3003D8A4C /* LayerPixer.m */; };
+		CE8E8A5A208837D3003D8A4C /* VideoFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E8A1E208837D3003D8A4C /* VideoFileParser.m */; };
+		CE8E8A5B208837D3003D8A4C /* CDAMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E8A20208837D3003D8A4C /* CDAMainController.m */; };
+		CE8E8A5C208837D3003D8A4C /* CDADualFisheyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E8A22208837D3003D8A4C /* CDADualFisheyeViewController.m */; };
+		CE8E8A60208837D3003D8A4C /* CDAH265StreamPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E8A2E208837D3003D8A4C /* CDAH265StreamPlayerController.m */; };
+		CE8E8A61208837D3003D8A4C /* CDASingleFisheyeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E8A30208837D3003D8A4C /* CDASingleFisheyeController.m */; };
+		CE8E8A62208837D3003D8A4C /* CDANormalPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E8A34208837D3003D8A4C /* CDANormalPlayerController.m */; };
+		CE8E8A6B208837D3003D8A4C /* CDANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E8A4C208837D3003D8A4C /* CDANavigationController.m */; };
 		E595E0CF0E0B5AB1831B7C57 /* libPods-DoraMediaKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B68CA6404B782006350E9971 /* libPods-DoraMediaKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +39,39 @@
 		CE36C8B120883043002CE507 /* DoraMediaKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoraMediaKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE36C8B420883043002CE507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE36C8B520883043002CE507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE36C8B720883043002CE507 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE36C8B820883043002CE507 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE36C8BB20883043002CE507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE36C8BD20883044002CE507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE36C8C020883044002CE507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE36C8C220883044002CE507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE36C8C320883044002CE507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8E8A0A208837D3003D8A4C /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		CE8E8A0F208837D3003D8A4C /* Camdora_19700101000109589.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Camdora_19700101000109589.mp4; sourceTree = "<group>"; };
+		CE8E8A10208837D3003D8A4C /* 全景.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全景.h264"; sourceTree = "<group>"; };
+		CE8E8A11208837D3003D8A4C /* l_split.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = l_split.h264; sourceTree = "<group>"; };
+		CE8E8A12208837D3003D8A4C /* 3dscene.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3dscene.h264; sourceTree = "<group>"; };
+		CE8E8A13208837D3003D8A4C /* video_example.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_example.h264; sourceTree = "<group>"; };
+		CE8E8A14208837D3003D8A4C /* sgk.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sgk.h264; sourceTree = "<group>"; };
+		CE8E8A15208837D3003D8A4C /* SampleVideo_1280x720_1mb.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleVideo_1280x720_1mb.mkv; sourceTree = "<group>"; };
+		CE8E8A16208837D3003D8A4C /* sgk3dscene.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sgk3dscene.h264; sourceTree = "<group>"; };
+		CE8E8A17208837D3003D8A4C /* camdora_h265_test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = camdora_h265_test.mp4; sourceTree = "<group>"; };
+		CE8E8A1A208837D3003D8A4C /* CDASingleH264PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDASingleH264PlayerController.m; sourceTree = "<group>"; };
+		CE8E8A1B208837D3003D8A4C /* VideoFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFileParser.h; sourceTree = "<group>"; };
+		CE8E8A1C208837D3003D8A4C /* LayerPixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerPixer.m; sourceTree = "<group>"; };
+		CE8E8A1D208837D3003D8A4C /* CDASingleH264PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDASingleH264PlayerController.h; sourceTree = "<group>"; };
+		CE8E8A1E208837D3003D8A4C /* VideoFileParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFileParser.m; sourceTree = "<group>"; };
+		CE8E8A1F208837D3003D8A4C /* LayerPixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerPixer.h; sourceTree = "<group>"; };
+		CE8E8A20208837D3003D8A4C /* CDAMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAMainController.m; sourceTree = "<group>"; };
+		CE8E8A22208837D3003D8A4C /* CDADualFisheyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDADualFisheyeViewController.m; sourceTree = "<group>"; };
+		CE8E8A23208837D3003D8A4C /* CDADualFisheyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDADualFisheyeViewController.h; sourceTree = "<group>"; };
+		CE8E8A2B208837D3003D8A4C /* CDAMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAMainController.h; sourceTree = "<group>"; };
+		CE8E8A2D208837D3003D8A4C /* CDAH265StreamPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAH265StreamPlayerController.h; sourceTree = "<group>"; };
+		CE8E8A2E208837D3003D8A4C /* CDAH265StreamPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAH265StreamPlayerController.m; sourceTree = "<group>"; };
+		CE8E8A30208837D3003D8A4C /* CDASingleFisheyeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDASingleFisheyeController.m; sourceTree = "<group>"; };
+		CE8E8A31208837D3003D8A4C /* CDASingleFisheyeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDASingleFisheyeController.h; sourceTree = "<group>"; };
+		CE8E8A33208837D3003D8A4C /* CDANormalPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDANormalPlayerController.h; sourceTree = "<group>"; };
+		CE8E8A34208837D3003D8A4C /* CDANormalPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDANormalPlayerController.m; sourceTree = "<group>"; };
+		CE8E8A4C208837D3003D8A4C /* CDANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDANavigationController.m; sourceTree = "<group>"; };
+		CE8E8A4D208837D3003D8A4C /* CDANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDANavigationController.h; sourceTree = "<group>"; };
 		DADD62B95356530A47ADDCC4 /* Pods-DoraMediaKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraMediaKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoraMediaKitDemo/Pods-DoraMediaKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,10 +117,12 @@
 		CE36C8B320883043002CE507 /* DoraMediaKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE8E8A4A208837D3003D8A4C /* Common */,
+				CE8E8A09208837D3003D8A4C /* Constant */,
+				CE8E8A0E208837D3003D8A4C /* Resource */,
+				CE8E8A18208837D3003D8A4C /* Src */,
 				CE36C8B420883043002CE507 /* AppDelegate.h */,
 				CE36C8B520883043002CE507 /* AppDelegate.m */,
-				CE36C8B720883043002CE507 /* ViewController.h */,
-				CE36C8B820883043002CE507 /* ViewController.m */,
 				CE36C8BA20883043002CE507 /* Main.storyboard */,
 				CE36C8BD20883044002CE507 /* Assets.xcassets */,
 				CE36C8BF20883044002CE507 /* LaunchScreen.storyboard */,
@@ -85,6 +130,110 @@
 				CE36C8C320883044002CE507 /* main.m */,
 			);
 			path = DoraMediaKitDemo;
+			sourceTree = "<group>";
+		};
+		CE8E8A09208837D3003D8A4C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A0A208837D3003D8A4C /* AppConstant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		CE8E8A0E208837D3003D8A4C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A0F208837D3003D8A4C /* Camdora_19700101000109589.mp4 */,
+				CE8E8A10208837D3003D8A4C /* 全景.h264 */,
+				CE8E8A11208837D3003D8A4C /* l_split.h264 */,
+				CE8E8A12208837D3003D8A4C /* 3dscene.h264 */,
+				CE8E8A13208837D3003D8A4C /* video_example.h264 */,
+				CE8E8A14208837D3003D8A4C /* sgk.h264 */,
+				CE8E8A15208837D3003D8A4C /* SampleVideo_1280x720_1mb.mkv */,
+				CE8E8A16208837D3003D8A4C /* sgk3dscene.h264 */,
+				CE8E8A17208837D3003D8A4C /* camdora_h265_test.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CE8E8A18208837D3003D8A4C /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A2B208837D3003D8A4C /* CDAMainController.h */,
+				CE8E8A20208837D3003D8A4C /* CDAMainController.m */,
+				CE8E8A32208837D3003D8A4C /* NormalPlayer */,
+				CE8E8A19208837D3003D8A4C /* SingleH264Player */,
+				CE8E8A2F208837D3003D8A4C /* SingleFisheyePlayer */,
+				CE8E8A2C208837D3003D8A4C /* H265StreamPlayer */,
+				CE8E8A21208837D3003D8A4C /* DualFisheyePlayer */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		CE8E8A19208837D3003D8A4C /* SingleH264Player */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A1D208837D3003D8A4C /* CDASingleH264PlayerController.h */,
+				CE8E8A1A208837D3003D8A4C /* CDASingleH264PlayerController.m */,
+				CE8E8A1B208837D3003D8A4C /* VideoFileParser.h */,
+				CE8E8A1E208837D3003D8A4C /* VideoFileParser.m */,
+				CE8E8A1F208837D3003D8A4C /* LayerPixer.h */,
+				CE8E8A1C208837D3003D8A4C /* LayerPixer.m */,
+			);
+			path = SingleH264Player;
+			sourceTree = "<group>";
+		};
+		CE8E8A21208837D3003D8A4C /* DualFisheyePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A23208837D3003D8A4C /* CDADualFisheyeViewController.h */,
+				CE8E8A22208837D3003D8A4C /* CDADualFisheyeViewController.m */,
+			);
+			path = DualFisheyePlayer;
+			sourceTree = "<group>";
+		};
+		CE8E8A2C208837D3003D8A4C /* H265StreamPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A2D208837D3003D8A4C /* CDAH265StreamPlayerController.h */,
+				CE8E8A2E208837D3003D8A4C /* CDAH265StreamPlayerController.m */,
+			);
+			path = H265StreamPlayer;
+			sourceTree = "<group>";
+		};
+		CE8E8A2F208837D3003D8A4C /* SingleFisheyePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A31208837D3003D8A4C /* CDASingleFisheyeController.h */,
+				CE8E8A30208837D3003D8A4C /* CDASingleFisheyeController.m */,
+			);
+			path = SingleFisheyePlayer;
+			sourceTree = "<group>";
+		};
+		CE8E8A32208837D3003D8A4C /* NormalPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A33208837D3003D8A4C /* CDANormalPlayerController.h */,
+				CE8E8A34208837D3003D8A4C /* CDANormalPlayerController.m */,
+			);
+			path = NormalPlayer;
+			sourceTree = "<group>";
+		};
+		CE8E8A4A208837D3003D8A4C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A4B208837D3003D8A4C /* NavigationController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE8E8A4B208837D3003D8A4C /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E8A4C208837D3003D8A4C /* CDANavigationController.m */,
+				CE8E8A4D208837D3003D8A4C /* CDANavigationController.h */,
+			);
+			path = NavigationController;
 			sourceTree = "<group>";
 		};
 		F5D70BF85FA11D1682DF0822 /* Frameworks */ = {
@@ -153,9 +302,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8E8A54208837D3003D8A4C /* sgk.h264 in Resources */,
+				CE8E8A55208837D3003D8A4C /* SampleVideo_1280x720_1mb.mkv in Resources */,
+				CE8E8A57208837D3003D8A4C /* camdora_h265_test.mp4 in Resources */,
 				CE36C8C120883044002CE507 /* LaunchScreen.storyboard in Resources */,
+				CE8E8A56208837D3003D8A4C /* sgk3dscene.h264 in Resources */,
+				CE8E8A4F208837D3003D8A4C /* Camdora_19700101000109589.mp4 in Resources */,
+				CE8E8A50208837D3003D8A4C /* 全景.h264 in Resources */,
 				CE36C8BE20883044002CE507 /* Assets.xcassets in Resources */,
 				CE36C8BC20883043002CE507 /* Main.storyboard in Resources */,
+				CE8E8A52208837D3003D8A4C /* 3dscene.h264 in Resources */,
+				CE8E8A53208837D3003D8A4C /* video_example.h264 in Resources */,
+				CE8E8A51208837D3003D8A4C /* l_split.h264 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,9 +345,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE36C8B920883043002CE507 /* ViewController.m in Sources */,
+				CE8E8A6B208837D3003D8A4C /* CDANavigationController.m in Sources */,
+				CE8E8A59208837D3003D8A4C /* LayerPixer.m in Sources */,
+				CE8E8A62208837D3003D8A4C /* CDANormalPlayerController.m in Sources */,
 				CE36C8C420883044002CE507 /* main.m in Sources */,
+				CE8E8A58208837D3003D8A4C /* CDASingleH264PlayerController.m in Sources */,
 				CE36C8B620883043002CE507 /* AppDelegate.m in Sources */,
+				CE8E8A5A208837D3003D8A4C /* VideoFileParser.m in Sources */,
+				CE8E8A61208837D3003D8A4C /* CDASingleFisheyeController.m in Sources */,
+				CE8E8A60208837D3003D8A4C /* CDAH265StreamPlayerController.m in Sources */,
+				CE8E8A5B208837D3003D8A4C /* CDAMainController.m in Sources */,
+				CE8E8A5C208837D3003D8A4C /* CDADualFisheyeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,11 +497,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XL85DXA222;
+				DEVELOPMENT_TEAM = HQ4PZ36DEN;
 				INFOPLIST_FILE = DoraMediaKitDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Fanfan.DoraMediaKitDemo;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camsgear.DORAMediaKit-iOSDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -347,11 +516,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XL85DXA222;
+				DEVELOPMENT_TEAM = HQ4PZ36DEN;
 				INFOPLIST_FILE = DoraMediaKitDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Fanfan.DoraMediaKitDemo;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camsgear.DORAMediaKit-iOSDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

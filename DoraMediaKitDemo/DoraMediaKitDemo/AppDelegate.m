@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "CDAMainController.h"
+#import "CDANavigationController.h"
+#import "AppConstant.h"
 
 @interface AppDelegate ()
+
 
 @end
 
@@ -17,8 +21,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    CDAMainController *vc = [[CDAMainController alloc] init];
+    CDANavigationController *nvc = [[CDANavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nvc;
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
