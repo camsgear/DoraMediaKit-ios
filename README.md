@@ -199,6 +199,28 @@
  播放当前最后一帧
  */
 - (void)playLastFrame;
+
+/**
+开始录制视频
+*param file 存储路径
+@return 是否成功
+*/
+- (BOOL)startRecordWithFile:(NSString *)file;
+
+/**
+停止录制视频
+
+@return 是否成功
+*/
+- (BOOL)stopRecord;
+
+/**
+*获取当前帧并存储
+*param file 存储路径
+@return 是否成功
+*/
+- (BOOL)screenShotWithFile:(NSString *)file;
+
 ```
 
 
